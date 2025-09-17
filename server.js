@@ -3,6 +3,7 @@ import { ENV } from "./config/env.js";
 import connectDB from "./config/mongodb.js";
 import burcRouter from "./routes/burcRoutes.js";
 import { autoFetchAllBurcData } from "./controllers/burcController.js";
+import job from './config/cron.js';
 const app = express();
 const PORT = ENV.PORT || 5001
 
