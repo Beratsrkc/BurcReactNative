@@ -1,4 +1,4 @@
-import Burc from "../models/burc.js";
+import Burc from "../models/Burc.js";
 import { ENV } from "../config/env.js";
 import axios from "axios";
 
