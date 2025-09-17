@@ -16,7 +16,7 @@ app.use(express.json())
 await connectDB();
 
 // Sunucu başladığında otomatik olarak burç verilerini çek
-console.log("Sunucu başlatılıyor, burç verileri otomatik çekilecek...");
+console.log("Sunucu başlatılıyor, burç verileri otomatik çekilecek....");
 await autoFetchAllBurcData();
 
 // Her gün otomatik çekme için zamanlayıcı (opsiyonel)
